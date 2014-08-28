@@ -1,0 +1,59 @@
+
+body{
+    font-family: arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    overflow-x: hidden;
+}
+
+fieldset.formContainer{
+    width: 300px;
+    margin: 10px auto;
+    background-color: #eee;
+    border: 1px solid #dbdbdb;
+    padding: 10px;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    padding: 0;
+    margin: 10px 20px;
+    list-style-type: none;
+}
+
+label{
+    display: block;
+}
+
+
+
+input[type='text'], input[type='email'],
+input[type='password']{
+    width: 250px;
+    height: 24px;
+}
+
+input[type='submit']{
+    padding: 5px;
+    font-weight: 700;
+}
+
+input[type='submit'][disabled]{
+    background-color: #999;
+    font: italic;
+    font-weight: normal;
+}
+
+input{
+    padding: 3px 5px;
+    border: 1px solid #dbdbdb;
+}
+
+.required{
+    border: 1px solid red;
+    background-color: #fffda4;
+}
